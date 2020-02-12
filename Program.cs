@@ -1,4 +1,9 @@
 ﻿using System;
+using ExUm;
+using ExDois;
+using ExTres;
+using ExQuatro;
+using ExCinco;
 
 namespace CSharp
 {
@@ -6,18 +11,14 @@ namespace CSharp
     {
         static void Main(string[] args)
         {
-            double FATOR = 5.0/9.0;
-        double AJUSTE = 32;
+           
+            Console.WriteLine( ExUm.Program.ExUm(10, 8, 9) );
+            Console.WriteLine( ExDois.Program.ExDois(10, 8) );
+            Console.WriteLine( ExTres.Program.ExTres(10, 8, 3) );
+            Console.WriteLine( ExQuatro.Program.ExQuatro(10, 8) );
+            Console.WriteLine( ExCinco.Program.ExCinco(10, 8, 3) );
 
-        double fahrenheit = 86;
-        double celsius = (fahrenheit - AJUSTE) * FATOR;
-
-        Console.WriteLine("O valor de "+ fahrenheit +" fahrenheit em Celsius é " + celsius + "°C.");
-        
-        fahrenheit = 150;
-        celsius = (fahrenheit - AJUSTE) * FATOR;
-        Console.WriteLine("O valor de "+ fahrenheit +" fahrenheit em Celsius é " + celsius + "°C.");
-        
+                
         }
     }
 }
