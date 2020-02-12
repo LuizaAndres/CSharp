@@ -4,6 +4,7 @@ using ExDois;
 using ExTres;
 using ExQuatro;
 using ExCinco;
+using ExSeis;
 
 namespace CSharp
 {
@@ -16,6 +17,7 @@ namespace CSharp
             Console.WriteLine( ExTres.Program.ExTres(10, 8, 3) );
             Console.WriteLine( ExQuatro.Program.ExQuatro(10, 8) );
             Console.WriteLine( ExCinco.Program.ExCinco(1, 25, 1) );
+            Console.WriteLine( ExSeis.Program.ExSeis(100, 100) );
         }
     }
 }
