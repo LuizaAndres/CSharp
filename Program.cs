@@ -28,7 +28,7 @@ namespace CSharp
 //feito            Console.WriteLine( ExUm.Program.ExUm() );
 //feito            Console.WriteLine( ExDois.Program.ExDois() );
 //feito            Console.WriteLine( ExTres.Program.ExTres() );
-            Console.WriteLine( ExQuatro.Program.ExQuatro() );
+//feito            Console.WriteLine( ExQuatro.Program.ExQuatro() );
 //            Console.WriteLine( ExCinco.Program.ExCinco(1, 25, 1) );
 //            Console.WriteLine( ExSeis.Program.ExSeis(100, 100) );
         }
